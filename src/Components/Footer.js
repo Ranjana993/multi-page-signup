@@ -378,7 +378,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between px-2 items-center border-t p-3 border-gray-400 text-slate-600">
+      <div className="flex flex-col lg:flex-row gap-2 justify-between px-2 items-center border-t p-3 border-gray-400 text-slate-600">
         <p>
           @2023 Dribble . All rights reserved
         </p>

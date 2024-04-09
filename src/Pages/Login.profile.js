@@ -37,8 +37,8 @@ const Profile = () => {
         <div className='mt-12'>
           <h3 className='text-xl font-bold'>Add an avatar </h3>
           <div className='mt-4'>
-            <div className='flex items-center flex-col lg:flex-row gap-6'>
-              <div className={profilePicture ? 'w-32 h-32 lg:w-40 lg:h-40 border-4  flex items-center justify-center rounded-full' : 'w-32 h-32 lg:w-40 lg:h-40 border-4 border-dotted border-gray-400  flex items-center justify-center rounded-full'}>
+            <div className='flex items-center flex-row gap-3 lg:gap-6'>
+              <div className={profilePicture ? 'w-28 h-28 lg:w-40 lg:h-40 border-4  flex items-center justify-center rounded-full' : 'w-32 h-32 lg:w-40 lg:h-40 border-4 border-dotted border-gray-400  flex items-center justify-center rounded-full'}>
                 {
                   profilePicture ? (
                     <img src={profilePicture} alt="Profile" className='w-full h-full border-none rounded-full cover-fill' />
